@@ -2,15 +2,11 @@
 import streamlit as st
 
 st.set_page_config(page_title="Pilotage plan 2026", layout="wide")
-st.title(" 🎓 Accueil — Pilotage de la formation continue du Cirad")
+st.title(" 🎓 Accueil — Pilotage de la formation")
 
 st.markdown("""
 Bienvenue ! Utilisez le menu de gauche pour naviguer :
 
-- **📊 Budget** : vue et filtres par gestionnaire/thématique  
-- **📈 Sessions** : vue et filtres par serceice/mois/gestionnaire/thématique
-- **📈 KPI Sessions** : indicateurs et graphs concernant les sessions 
-- **📈 KPI Gest Sessions** : indicateurs et graphs concernant les sessions par gestionnaire
 """)            
 # - **💰 Budget global** : ...
 # - **📊 Pilotage financier** : ...
@@ -30,15 +26,3 @@ Bienvenue ! Utilisez le menu de gauche pour naviguer :
 # - **🗂️ Archivage / Historique** : ...
 # - **🔧 Administration** : ...
 
-
-
-#st.page_link("pages/1_Budget.py", label="Aller à la page Budget", icon="📊")
-#st.page_link("pages/2_Sessions.py", label="Aller à la page Sessions", icon="📈")
-
-# st.divider()
-# st.markdown("### Raccourcis")
-# col1, col2 = st.columns(2)
-# with col1:
-#     st.page_link("pages/1_Budget.py", label="Aller à la page Budget", icon="📊")
-# with col2:
-#     st.page_link("pages/2_Sessions.py", label="Aller à la page Sessions", icon="📈")
